@@ -8,7 +8,7 @@ Sistema web desenvolvido em **PHP + MySQL** para gerenciamento de notícias foca
 
 ### 👑 Administrador
 
-* Excluir ou Editar cadastro de repórteres
+* Excluir, Editar ou Desativar cadastro de repórteres
 * Acessar painel administrativo
 * Gerenciar usuários
 * Visualizar e acompanhar todas as notícias
@@ -33,19 +33,11 @@ Sistema web desenvolvido em **PHP + MySQL** para gerenciamento de notícias foca
 * **admin** → acesso total
 * **reporter** → acesso restrito
 
-### 📌 Status de Usuário:
-
-* **ativo** → acesso liberado
-* **pendente** → aguardando aprovação do admin
-
----
-
----
 
 ## 👤 Usuário padrão (Admin)
 
 * **Email:** [admin@email.com](mailto:admin@email.com)
-* **Senha:** 123
+* **Senha:** admin123
 
 ---
 
@@ -61,11 +53,8 @@ Sistema web desenvolvido em **PHP + MySQL** para gerenciamento de notícias foca
 
 ## 🧪 Como Rodar o Projeto
 
-
-
-```
-htdocs/
-```
+localhost/fashion
+https://github.com/JoaquimBarbosa16/portal-moda- pelo index * 
 
 Inicie:
 
@@ -105,13 +94,11 @@ O sistema é voltado para o universo de **moda e estilo**, permitindo a publica�
 
 ## 👨‍💻 Autor
 
-**Joaquim Barbosa**
+**Joaquim Barbosa Guedes**
 
 ---
 
 ## 📌 Observações
-
-* Apenas usuários aprovados podem acessar o sistema
 * Repórteres não têm acesso às funções administrativas
 * Todas as ações são controladas por sessão
 * Sistema pensado para organização e publicação de conteúdo fashion
