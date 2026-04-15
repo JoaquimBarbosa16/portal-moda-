@@ -40,20 +40,6 @@ Sistema web desenvolvido em **PHP + MySQL** para gerenciamento de notícias foca
 
 ---
 
-## 🗂️ Estrutura do Projeto
-
-
-```
-<img width="295" height="582" alt="image" src="https://github.com/user-attachments/assets/dd11bb06-d16c-461c-b516-262f7efd3d8f" />
-
----
-
-## 🗄️ Banco de Dados
-
-### Tabelas:
-
-<img width="258" height="174" alt="image" src="https://github.com/user-attachments/assets/42cd1653-81cf-4c3f-ae64-272770611415" />
-
 ---
 
 ## 👤 Usuário padrão (Admin)
