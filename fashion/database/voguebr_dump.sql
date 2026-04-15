@@ -81,7 +81,7 @@ CREATE TABLE `categories` (
 -- A senha aqui é apenas um placeholder inválido.
 -- OBRIGATÓRIO rodar fix_passwords.php depois!
 INSERT INTO `users` (`id`,`name`,`email`,`password`,`role`,`bio`,`created_at`) VALUES
-(1,'Admin Geral',  'admin@vogue.com','PLACEHOLDER_RUN_FIX_PASSWORDS','admin','Editora-chefe e administradora do portal VOGUE BR.','2024-01-01 08:00:00'),
+(1,'Admin Geral',  'admin@vogue.com','admin123','admin','Editora-chefe e administradora do portal VOGUE BR.','2024-01-01 08:00:00'),
 (2,'Ana Clara',    'ana@gmail.com',  'PLACEHOLDER_RUN_FIX_PASSWORDS','user', 'Apaixonada por moda, viagens e cultura brasileira.','2024-02-15 10:30:00'),
 (3,'Beatriz Lima', 'bea@gmail.com',  'PLACEHOLDER_RUN_FIX_PASSWORDS','user', 'Editora de beleza e lifestyle.','2024-03-10 14:00:00'),
 (4,'Carla Mendes', 'carla@gmail.com','PLACEHOLDER_RUN_FIX_PASSWORDS','user', 'Fotógrafa de moda e criadora de conteúdo.','2024-04-20 09:15:00');

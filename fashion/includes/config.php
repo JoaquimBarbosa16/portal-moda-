@@ -1,7 +1,5 @@
 <?php
-// ============================================================
-//  VOGUE BR — Configuração MySQL
-// ============================================================
+
 define('SITE_NAME',    'VOGUE BR');
 define('SITE_TAGLINE', 'Fashion · Cultura · Estilo');
 define('DB_HOST',    getenv('DB_HOST')  ?: 'localhost');
@@ -39,8 +37,8 @@ class DB {
 
 function session_start_safe(): void { if(session_status()===PHP_SESSION_NONE){session_set_cookie_params(['lifetime'=>0,'path'=>'/','httponly'=>true,'samesite'=>'Lax']);session_start();} }
 function current_user(): ?array { session_start_safe(); return $_SESSION['user']??null; }
-function require_login(): void { if(!current_user()){header('Location: /index.php');exit;} }
-function require_admin(): void { $u=current_user();if(!$u||$u['role']!=='admin'){header('Location: /dashboard.php');exit;} }
+function require_login(): void { if(!current_user()){header('Location: index.php');exit;} }
+function require_admin(): void { $u=current_user();if(!$u||$u['role']!=='admin'){header('Location: dashboard.php');exit;} }
 function is_admin(): bool { $u=current_user();return $u&&$u['role']==='admin'; }
 function flash(string $type, string $msg): void { session_start_safe();$_SESSION['flash']=compact('type','msg'); }
 function get_flash(): ?array { session_start_safe();if(!empty($_SESSION['flash'])){$f=$_SESSION['flash'];unset($_SESSION['flash']);return $f;}return null; }
